@@ -8,7 +8,6 @@ Requirements:
 - C/C++ compiler.
 - Cmake.
 - Git.
-- fftw.
 - wget.
 
 How to use it: 
