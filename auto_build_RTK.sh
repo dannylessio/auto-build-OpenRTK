@@ -17,7 +17,7 @@ if [ ! -d "./ITK-bin" ]; then
 	cd ITK-bin
 	cmake -DModule_ITKReview=ON -DITK_USE_FFTWD=ON -DITK_USE_FFTWF=ON -DBUILD_DOCUMENTATION=OFF -DBUILD_EXAMPLES=OFF -DBUILD_TESTING=OFF ../ITK
 	make -j $n_of_cores
-	cd..
+	cd ..
 fi
 
 if [ ! -d "./RTK" ]; then
