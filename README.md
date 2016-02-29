@@ -1,2 +1,12 @@
 # auto-build-RTK
 Automate the building of OpenRTK for a Linux machine.
+It simply follows the installation tutorial that can be found here: http://wiki.openrtk.org/index.php/Main_Page#Step_0_-_Getting_ITK
+
+How to use it: 
+- Create an empty directory that will hosts all the OpenRTK and ITK sources.
+- Clone this repo inside this new directory.
+- Give the execution privileges to the .sh script.
+- Execute it.
+- Enter the number of cores of your processor, this is a tip for speedup the compilation process.
+- Hope, and take a long coffee.
+
