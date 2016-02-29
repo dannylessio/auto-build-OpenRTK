@@ -28,6 +28,5 @@ How to use it:
    ./auto_build_RTK.sh
   ```
   <br>
-- Enter the number of cores of your processor, this is a tip for speedup the compilation process.
 - Hope, and take a long coffee.
 
