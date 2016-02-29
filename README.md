@@ -10,17 +10,14 @@ How to use it:
   ```
   wget https://raw.githubusercontent.com/dannylessio/auto-build-RTK/master/auto_build_RTK.sh
   ```
-<br>
 - Give the execution privileges to the .sh script.<br>
  ```
  chmod +x auto_build_RTK.sh
  ```
-<br>
 - Execute it.<br>
 ```
  ./auto_build_RTK.sh
 ```
-<br>
 - Enter the number of cores of your processor, this is a tip for speedup the compilation process.
 - Hope, and take a long coffee.
 
