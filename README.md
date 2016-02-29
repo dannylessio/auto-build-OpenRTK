@@ -15,9 +15,9 @@ How to use it:
  chmod +x auto_build_RTK.sh
  ```
 - Execute it.<br>
-```
- ./auto_build_RTK.sh
-```
+  ```
+   ./auto_build_RTK.sh
+  ```
 - Enter the number of cores of your processor, this is a tip for speedup the compilation process.
 - Hope, and take a long coffee.
 
