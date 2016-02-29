@@ -1,20 +1,9 @@
 #!/bin/bash
 
-# Check if some of the requirements are installed
-if hash make 2>/dev/null; then
-	echo "C/C++ compiler not found. Aborting."
-	exit 1
-fi
-
-if hash cmake 2>/dev/null; then
-	echo "CMake not found. Aborting."
-	exit 1
-fi
-
-if hash git 2>/dev/null; then
-	echo "Git not found. Aborting."
-	exit 1
-fi
+# Check if some of the requirements are satisfied
+command -v gcc >/dev/null 2>&1 || { echo >&2 "C/C++ compiler is not installed. Aborting."; exit 1; }
+command -v cmake >/dev/null 2>&1 || { echo >&2 "Cmake is not installed. Aborting."; exit 1; }
+command -v git >/dev/null 2>&1 || { echo >&2 "Git is not installed. Aborting."; exit 1; }
 
 # Pick up the number of processors
 n_of_cores=$(grep -c ^processor /proc/cpuinfo)
