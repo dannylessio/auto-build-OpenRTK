@@ -7,9 +7,9 @@ How to use it:
 - Create an empty directory that will hosts all the OpenRTK and ITK sources.
 - Enter to this folder.
 - Download this [file](https://raw.githubusercontent.com/dannylessio/auto-build-RTK/master/auto_build_RTK.sh) with Wget/Curl like application:
-  '''bash
+  ```bash
   wget https://raw.githubusercontent.com/dannylessio/auto-build-RTK/master/auto_build_RTK.sh
-  '''
+  ```
 - Give the execution privileges to the .sh script.
 - Execute it.
 - Enter the number of cores of your processor, this is a tip for speedup the compilation process.
