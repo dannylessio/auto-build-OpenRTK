@@ -4,7 +4,7 @@ It simply follows the installation tutorial that can be found [here](http://wiki
 
 Requirements:
 - A good internet connection.
-- Enough RAM memory. If you have less than 2 GB, make sure to have enabled a swap parition.
+- Enough RAM memory. If you have less than 2 GB, make sure to have enabled a swap partition.
 - C/C++ compiler.
 - Cmake.
 - Git.
