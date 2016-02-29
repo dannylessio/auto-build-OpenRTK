@@ -2,6 +2,11 @@
 Automate the building of OpenRTK for a Linux machine.
 It simply follows the installation tutorial that can be found [here](http://wiki.openrtk.org/index.php/Main_Page#Step_0_-_Getting_ITK).
 
+Requirements:
+- C/C++ compiler
+- Cmake 
+- Git
+- fftw
 
 How to use it: 
 - Create an empty directory that will hosts all the OpenRTK and ITK sources.
