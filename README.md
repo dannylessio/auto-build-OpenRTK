@@ -3,6 +3,7 @@ Automate the building of OpenRTK for a Linux machine.
 It simply follows the installation tutorial that can be found [here](http://wiki.openrtk.org/index.php/Main_Page#Step_0_-_Getting_ITK).
 
 Requirements:
+- Enough RAM memory. If you have less than 2 GB, make sure to have enabled a swap parition.
 - C/C++ compiler
 - Cmake 
 - Git
