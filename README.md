@@ -3,12 +3,13 @@ This repo contains a script that fully automates the compilation process of Open
 It simply follows the installation tutorial that can be found [here](http://wiki.openrtk.org/index.php/Main_Page#Step_0_-_Getting_ITK).
 
 Requirements:
+- A good internet connection.
 - Enough RAM memory. If you have less than 2 GB, make sure to have enabled a swap parition.
-- C/C++ compiler
-- Cmake 
-- Git
-- fftw
-- wget
+- C/C++ compiler.
+- Cmake.
+- Git.
+- fftw.
+- wget.
 
 How to use it: 
 - Create an empty directory that will hosts all the OpenRTK and ITK sources.
