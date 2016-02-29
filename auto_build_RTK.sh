@@ -1,8 +1,23 @@
 #!/bin/bash
 
+# Check if some of the requirements are installed
+if hash make 2>/dev/null; then
+	echo "C/C++ compiler not found. Aborting."
+	exit 1
+fi
+
+if hash cmake 2>/dev/null; then
+	echo "CMake not found. Aborting."
+	exit 1
+fi
+
+if hash git 2>/dev/null; then
+	echo "Git not found. Aborting."
+	exit 1
+fi
+
 # Pick up the number of processors
-echo "Insert the number of your processor's cores followed by [ ENTER ]"
-read n_of_cores
+n_of_cores=$(grep -c ^processor /proc/cpuinfo)
 
 if [ ! -d "./ITK" ]; then
 	git clone git://itk.org/ITK.git
