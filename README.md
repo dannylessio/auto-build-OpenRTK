@@ -1,6 +1,6 @@
 # auto-build-OpenRTK
 This repo contains a script that fully automates the compilation process of OpenRTK for a Linux machine.
-It simply follows and automates step 0-1-2 that can be found  [here](http://wiki.openrtk.org/index.php/Main_Page#Step_0_-_Getting_ITK).
+It simply follows and automates the 0-1-2-3 installation steps that can be found  [here](http://wiki.openrtk.org/index.php/Main_Page#Step_0_-_Getting_ITK).
 
 Requirements:
 - A good internet connection.
@@ -29,5 +29,4 @@ How to use it:
   ```
   <br>
 - Hope, and take a long coffee.
-
-- If the compilation process is done with no errors, you can proceed with the [step 3](http://wiki.openrtk.org/index.php/Main_Page#Step_3_-_Running_the_HelloWorld_application) of the official wiki for running an HelloWorld application.
+- If you see the "RTK Hello World!" string, all is working fine and the compilation process is done.
