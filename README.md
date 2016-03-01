@@ -1,7 +1,7 @@
 # auto-build-RTK
 This repo contains a bash script that fully automates the compilation process of RTK for a Linux machine.<br>
 It simply follows the 0-1-2-3 installation steps that can be found  [here](http://wiki.openrtk.org/index.php/Main_Page#Step_0_-_Getting_ITK). <br>
-It compiles with the " make -j " option and also adds the -fPIC value inside CMAKE_CXX_FLAGS and CMAKE_C_FLAGS options in order to prevent troubles with other software that requires ITK or RTK libraries like SimpleITK.
+It compiles with the " make -j " option and also adds the -fPIC value inside CMAKE_CXX_FLAGS and CMAKE_C_FLAGS options in order to prevent troubles with other software that requires ITK or RTK as a dependency, like SimpleITK.
 
 Requirements:
 - A good internet connection.
