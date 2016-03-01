@@ -8,7 +8,7 @@ Requirements:
 - C/C++ compiler.
 - Cmake.
 - Git.
-- wget.
+- Wget.
 
 How to use it: 
 - Create an empty directory that will hosts all the OpenRTK and ITK sources.
