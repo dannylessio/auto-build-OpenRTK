@@ -33,8 +33,11 @@ if [ ! -d "./RTK-bin" ]; then
 	# Compile RTK
 	mkdir RTK-bin
 	cd RTK-bin
-	cmake -DITK_DIR=$path_of_ITK -DCMAKE_BUILD_TYPE=Release -DCMAKE_CXX_FLAGS=-fPIC -DCMAKE_C_FLAGS=-fPIC ../RTK
+	cmake -DITK_DIR=$path_of_ITK -DCMAKE_BUILD_TYPE=Release -DBUILD_EXAMPLES=ON -DCMAKE_CXX_FLAGS=-fPIC -DCMAKE_C_FLAGS=-fPIC ../RTK
 	make -j $n_of_cores
+	cd bin
+	./HelloWorld
+	cd ..
 	cd ..
 fi
 
