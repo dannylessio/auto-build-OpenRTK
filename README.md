@@ -1,4 +1,4 @@
-# auto-build-OpenRTK
+# auto-build-RTK
 This repo contains a script that fully automates the compilation process of OpenRTK for a Linux machine.
 It simply follows the 0-1-2-3 installation steps that can be found  [here](http://wiki.openrtk.org/index.php/Main_Page#Step_0_-_Getting_ITK).
 
