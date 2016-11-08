@@ -6,7 +6,7 @@ command -v cmake >/dev/null 2>&1 || { echo >&2 "Cmake is not installed. Aborting
 command -v git >/dev/null 2>&1 || { echo >&2 "Git is not installed. Aborting."; exit 1; }
 
 if [ ! -d "./ITK" ]; then
-	git clone git://itk.org/ITK.git
+	git clone http://itk.org/ITK.git
 fi
 
 if [ ! -d "./ITK-bin" ]; then
@@ -19,7 +19,7 @@ if [ ! -d "./ITK-bin" ]; then
 fi
 
 if [ ! -d "./RTK" ]; then
-	git clone git://github.com/SimonRit/RTK.git
+	git clone http://github.com/SimonRit/RTK.git
 fi
 
 if [ ! -d "./RTK-bin" ]; then
