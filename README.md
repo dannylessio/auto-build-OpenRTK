@@ -5,14 +5,14 @@ It compiles with the " make -j " option and also adds the -fPIC value inside CMA
 
 Requirements:
 - A good internet connection.
-- Enough RAM memory. If you have less than 2 GB, make sure to have enabled a swap partition.
+- Enough RAM memory. If you have less than 2 GB, make sure that you have a swap partition enabled.
 - C/C++ compiler.
 - Cmake.
 - Git.
 - Wget.
 
 How to use it: 
-- Create an empty directory that will hosts RTK and ITK sources.
+- Create an empty directory that will host both RTK and ITK sources.
 - Enter to this folder.
 - Download this [file](https://raw.githubusercontent.com/dannylessio/auto-build-RTK/master/auto_build_RTK.sh) with Wget:<br>
   ```
@@ -30,4 +30,4 @@ How to use it:
   ```
   <br>
 - Hope, and take a long coffee.
-- If you see the "RTK Hello World!" string, all is working fine and the compilation process is done.
+- If you see the "RTK Hello World!" string, everything is working fine and the compilation process is done.
