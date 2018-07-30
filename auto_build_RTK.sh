@@ -23,7 +23,6 @@ if [[ $unamestr == "Darwin" ]]; then
 else
 	num_make_threads=""
 fi
-echo $num_make_threads
 
 # Download ITK source
 if [ ! -d "./ITK" ]; then
